@@ -27,7 +27,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 # conf
 T_stage = st.sidebar.slider("T_stage", 0, 4, 1)
-#st.sidebar.write('xxxxxxxxxxxxxxxx')
+st.sidebar.markdown('xxxxxxxxxxxxxxxx')
 N_stage = st.sidebar.slider("N_stage", 0, 4, 1)
 age = st.sidebar.slider("age", 1, 2, 1)
 race = st.sidebar.slider("race", 1, 3, 1)
