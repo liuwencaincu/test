@@ -39,7 +39,7 @@ race = st.sidebar.selectbox("Race",('Black','Other','White'),index=0)
 histology = st.sidebar.selectbox("Histology",('ATC','FTC','MTC','PTC'),index=3)
 T_stage = st.sidebar.slider("T stage", 0, 4, 0)
 N_stage = st.sidebar.slider("N stage", 0, 1, 0)
-grade = st.sidebar.slider("Grade", 1, 4, 0)
+grade = st.sidebar.slider("Grade", 1, 4, 1)
 
 # str_to_int
 
