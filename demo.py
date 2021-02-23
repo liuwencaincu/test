@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import numpy as np
 import pandas as pd
-import sklearn
+import scikit-learn
 import json
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score
